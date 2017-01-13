@@ -35,9 +35,9 @@ wlan = WLAN() 					# get current object, without changing the mode
 
 # Settings for TP-LINK home network
 KEY = ''
-IP = '192.168.0.106'			# WiPy Fixed IP address
-GATEWAY = '192.168.0.1'			# IP address of gateway
-DNS = '192.168.0.1'				# IP address of DNS
+IP = '192.168.1.253'			# WiPy Fixed IP address
+GATEWAY = '192.168.1.1'			# IP address of gateway
+DNS = '192.168.1.1'				# IP address of DNS
 NETMASK = '255.255.255.0'		# Netmask for this subnet
 
 if machine.reset_cause() != machine.SOFT_RESET:
